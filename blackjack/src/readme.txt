@@ -1,0 +1,6 @@
+This is a text-based Blackjack program in Java implements basic actions like hitting and standing.
+
+First the player will bet the chips from 1 chip to the maximum number of chips he has. Then, according to the rule I checked for Blackjack, two cards will be distribute to player and dealer, with the first card visible to others. If a Blackjack (an Ace and a 10 points card) occurs, this bet will be over and the player will win double amount of the bet if the player get a Blackjack. If not, the player will choose to hit or not depends on the hand card and the first card of dealer. If the player busts, this bet will be over and the player will lost his bet. If not, the program will enter the dealer's stage, where the AI dealer will keep hitting until hand value is 17 or greater. If the bust this bet will be over too. If not, the bet will enter the comparison stage, where the larger hand value will win the bet. After that the chips for player will be modified, and next bet will start. 
+
+In this program King, Queen and Jack are regarded as 10 points, and for Ace, each Ace can be chosen to be 1 or 11 points, for example, a Heart Ace and a Diamond Ace could be 2 points, 12 points or 22 points (although nobody wants 22 points). The method for counting the hand value will deal with it.
+
